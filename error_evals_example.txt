@@ -1,0 +1,27 @@
+
+Example extracting and respoding to customer email
+
+
+Input        | LLM-drafted query     | Orders database query        | LLM-drafted email
+---------------------------------------------------------------------------------------------
+Email 1      | Wrong table           |                              |
+Email 2      |                       | Error in database entry      | Didn’t address details of order
+Email 3      | Incorrect math        |                              |
+...          | ...                   | ...                          | ...
+Email 50     |                       |                              | Defensive tone
+---------------------------------------------------------------------------------------------
+              75%                      4%                              30%
+
+
+Tips for good eval
+
+- End to end eval is expensive
+- Build eval for component (tool)
+
+Benefits of component-level evaluations
+
+• Can provide clearer signal for specific errors
+  • Avoid the noise in end-to-end system
+
+• More efficient for focused team to optimize
+  • Work on smaller, more targeted problems faster
