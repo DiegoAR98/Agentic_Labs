@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python researcher_Agent.py:*)",
+      "Bash(python test_anthropic.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
