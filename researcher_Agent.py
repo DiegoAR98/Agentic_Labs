@@ -175,7 +175,7 @@ if __name__ == "__main__":
     app = create_research_workflow()
 
     # Set your topic here
-    topic = "What is Less Dangerous for Your Health: Nicotine Pouches or Natural Cigars?"
+    topic = "Nicotine effects on adults with attention-deficit/hyperactivity disorder (ADHD)"
 
     print("\n" + "="*80)
     print(f"STARTING RESEARCH WORKFLOW FOR: {topic}")
